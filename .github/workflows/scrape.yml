@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   # this means "on a set schedule" check with cron https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 0 * * 1'
 jobs:
   scrape:
     #This is the system that I want my software to run on.
